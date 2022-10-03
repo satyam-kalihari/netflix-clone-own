@@ -1,0 +1,13 @@
+.banner{
+    background: url("https://i.pinimg.com/564x/5c/52/ef/5c52efe549955db50e89bcb9865a011c.jpg");
+    background-size: cover;
+    height: 60%;
+}
+
+.movie-name{
+    color: white;
+}
+
+.movie-details{
+    color: white;
+}
