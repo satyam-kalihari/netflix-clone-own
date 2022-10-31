@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.nav-netflix-logo{
+.nav-contener > .nav-netflix-logo{
     height: 60px;
 }
 
@@ -13,4 +13,9 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+.nav-bg{
+    background: #111;
+    box-shadow: 0 6px 8px 0px rgba(0, 0, 10, 0.9), 0 8px 15px 0 rgba(0, 0, 10, 0.6);
 }

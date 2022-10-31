@@ -1,13 +1,38 @@
+
+
 .banner{
-    background: url("https://i.pinimg.com/564x/5c/52/ef/5c52efe549955db50e89bcb9865a011c.jpg");
-    background-size: cover;
-    height: 60%;
+    width: 100vw;
+    position: relative;
+    top: 0;
 }
 
 .movie-name{
     color: white;
+    height: 72.04px;
+    overflow-y: scroll;
+}
+
+.movie-name::-webkit-scrollbar{
+    display: none;
 }
 
 .movie-details{
     color: white;
+    width: 290px;
+    overflow-y: scroll;
+    min-height: 194px;
+}
+
+.movie-details::-webkit-scrollbar{
+    display: none;
+}
+
+.banner-btn{
+    background: rgba(17, 17, 17, 0.438);
+}
+
+.banner-fade-bottom{
+    height: 6.7rem;
+    background-image: linear-gradient(180deg, transparent, rgba(27, 27, 27, 0.687), #111);
+    /* position: absolute; */
 }

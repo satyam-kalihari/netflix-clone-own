@@ -1,0 +1,48 @@
+.signup{
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    top: 10px;
+}
+.outline{
+    outline: none;
+}
+
+.background{
+    background: hsla(0, 1%, 100%, 0.786);
+}
+
+.signup-contener-profile-img{
+    height: 100px;
+    width: 100px;
+}
+
+.signup-contener-user-details{
+    width: 85%;
+}
+
+.sub-btn{
+    background: hsl(0, 70%, 45%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@media only screen and (max-width : 760px) {
+
+    .signup{
+        max-width: 700px;
+    }
+
+    .signup-contener{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .signup-contener-profile-img{
+        height: 50px;
+        width: 50px;
+    }
+}

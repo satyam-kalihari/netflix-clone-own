@@ -1,0 +1,70 @@
+
+
+
+.profilescreen{
+    height: 120vh;
+    background-color: #111;
+}
+
+.profile-details{
+    width: 100%;
+}
+
+.profile-contener{
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    top: 10vh;
+    position: relative;
+}
+
+.prof-netflix-logo{
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+.profile-img{
+    height: 150px;
+    width: 150px;
+}
+
+.user-details{
+    width: 85%;
+}
+
+.signout-btn, .sub-btn{
+    background: hsl(0, 70%, 45%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@media only screen and (max-width : 770px) {
+
+    .profilescreen{
+        height: 150vh;
+    }
+
+    .profile-contener{
+        max-width: 70%;
+        align-items: center;
+    }
+
+    .profile-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .profile-img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .user-details{
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+
+.loginscreen{
+    height: 100vh;
+    position: relative;
+    background: url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.login-nav > .nav-netflix-logo{
+    height: 60px;
+}
+
+.loginscreen > .login-contener{
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    right: 26%;
+}
+
+.login-contener > .btncus{
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(0, 100%, 40%);
+}
+
+.gradient-bg{
+    width: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

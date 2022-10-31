@@ -1,3 +1,27 @@
 .home-screen{
-    height: 100vh;
+    width: 100%;
+    padding: 15px;
+    background-color: #111;
+}
+
+/* DETAIL CONTENER */
+.detail-contener{
+    max-width: 90%;
+    min-height: 700px;
+    max-height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width : 480px) {
+    .movie-detail{
+        height: 160px;
+        width: 90%;
+        top: 40%;
+        left: 4%;
+        overflow-y: scroll;
+    }
 }

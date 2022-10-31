@@ -1,25 +1,53 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "name" : "Netflix clone",
+    "short_name" : "Netflixclone",
+    "start_url" : "/build",
+    "display" : "standalone",
+    "background_color" : "#9ae45f",
+    "theme_color" : "#262335",
+    "oreintation" : "portrait-primary",
+    "icons" : [
+        {
+            "src" : "/image/netflix-logo (0).png",
+            "type" : "image/png",
+            "sizes" : "72x72"
+        },
+
+        {
+            "src" : "/image/netflix-logo (144).png",
+            "type" : "image/png",
+            "sizes" : "144x144",
+            "purpose": "maskable"
+        },
+
+        {
+            "src" : "/image/netflix-logo (7).png",
+            "type" : "image/png",
+            "sizes" : "152x152"
+        },
+
+        {
+            "src" : "/image/netflix-logo (6).png",
+            "type" : "image/png",
+            "sizes" : "192x192"
+        },
+
+        {
+            "src" : "/image/netflix-logo (2).png",
+            "type" : "image/png",
+            "sizes" : "256x256"
+        },
+
+        {
+            "src" : "/image/netflix-logo (5).png",
+            "type" : "image/png",
+            "sizes" : "384x384"
+        },
+
+        {
+            "src" : "/image/netflix-logo (3).png",
+            "type" : "image/png",
+            "sizes" : "512x512"
+        }
+    ]
 }

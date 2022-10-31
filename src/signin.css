@@ -1,0 +1,37 @@
+.signin-contener{
+    position: relative;
+    height: 300px;
+    max-width: 300px;
+    margin: auto;
+    top: 10%;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsl(340, 95%, 50%), hsl(7, 100%, 58%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, hsl(7, 70%, 50%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.outline{
+    outline: none;
+}
+
+.signin-btn{
+    padding-left: 68px;
+    padding-right: 68px;
+    border: none;
+    font-weight: 500;
+    background: linear-gradient(to right, #161616, #000000);
+}
+
+.signin-btn:hover, .outline:hover{
+    box-shadow: 0 2px 3px 0 rgba(72, 70, 70, 0.447), 0 3px 5px 0 rgba(95, 95, 95, 0.315);
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
+.gray-text{
+    color: hsl(0, 0%, 80%);
+}
+
+.gray-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

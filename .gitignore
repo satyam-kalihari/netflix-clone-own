@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/robots.txt
+public/robots.txt
+public/favicon.ico
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+src/features/counterSlice.js
