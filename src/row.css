@@ -41,6 +41,7 @@
 
 .row-movies{
     overflow-x: scroll;
+    scroll-behavior: smooth;
     overflow-y: hidden;
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline mandatory;
